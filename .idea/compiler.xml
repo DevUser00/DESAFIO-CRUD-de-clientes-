@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DESAFIO-CRUD-de-clientes-" />
         <module name="desafioCliente" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DESAFIO-CRUD-de-clientes-" options="-parameters" />
       <module name="desafioCliente" options="-parameters" />
     </option>
   </component>
